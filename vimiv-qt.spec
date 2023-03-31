@@ -23,7 +23,7 @@ Full documentation is available at https://karlch.github.io/vimiv-qt.}
  
 Name:           %{pypi_name}
 Version:        0.8.0
-Release:        1
+Release:        2
 Summary:        An image viewer with vim-like keybindings
  
 License:        GPLv3+
