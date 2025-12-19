@@ -31,9 +31,9 @@ URL:            https://karlch.github.io/vimiv-qt/
 Source0:        https://github.com/karlch/vimiv-qt/archive/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  pkgconfig(python)
-BuildRequires:  python3dist(setuptools)
-BuildRequires:  python3dist(pyqt5)
- 
+BuildRequires:  python%{pyver}dist(setuptools)
+BuildRequires:  python%{pyver}dist(pyqt5)
+BuildRequires:  python%{pyver}dist(setuptools)
 %if %{with tests}
 BuildRequires:  python3dist(pytest)
 # Not available in Mandriva anyway
